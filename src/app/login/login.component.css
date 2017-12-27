@@ -1,0 +1,31 @@
+.formlogin {
+    background: #171517;
+    background-color: #171517;
+}
+.rounded {
+    border-radius: 15px;
+    background: #E8E5EA;
+    padding: 15px; 
+    width: 210px;
+    height: 3px;
+    font-size: 20px;
+    outline: 0;
+}
+
+input.rounded:focus {
+    border-color: #666;
+    box-shadow: 2px 2px 3px #666;
+}
+input::placeholder {
+  color: #CAC6C6;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight:bold;
+  font-style:italic;  
+  letter-spacing:1pt;
+  word-spacing:2pt;
+  font-size:28px;
+  text-align:left;
+  font-family:georgia, serif;
+  line-height:1;
+}
