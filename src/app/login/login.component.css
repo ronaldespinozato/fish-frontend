@@ -1,6 +1,16 @@
 .formlogin {
-    background: #171517;
-    background-color: #171517;
+    background: #312F31;    
+    border-radius: 15px;    
+    text-align: center;
+    width: 400px;
+    height: 200px;    
+    position: relative;
+    border-width: 5px;
+    margin:auto;
+    -webkit-box-shadow: 2px 2px 33px 16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 33px 16px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 33px 16px rgba(0,0,0,0.75);
+    top: 200px;
 }
 .rounded {
     border-radius: 15px;
@@ -16,12 +26,43 @@ input.rounded:focus {
     border-color: #666;
     box-shadow: 2px 2px 3px #666;
 }
+
+button.btn-login:focus {    
+    border-color: #DA2424;
+    -webkit-box-shadow: 2px 2px 33px 6px rgba(36, 2, 2, 0.75);
+    -moz-box-shadow: 2px 2px 33px 6px rgba(215, 49, 49, 0.75);
+    box-shadow: 2px 2px 33px 6px rgba(194, 29, 29, 0.75);
+    background: #AE1616;
+    outline: 0;
+}
+
+button.btn-login:hover {
+    border-color: #DA2424;
+    -webkit-box-shadow: 2px 2px 33px 6px rgba(36, 2, 2, 0.75);
+    -moz-box-shadow: 2px 2px 33px 6px rgba(215, 49, 49, 0.75);
+    box-shadow: 2px 2px 33px 6px rgba(194, 29, 29, 0.75);
+    background: #AE1616;
+    outline: 0;
+}
+
+.btn-login {
+    background: #DBC9EC;
+    border-style: solid;
+    border-width: 2px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    position: absolute;
+    right: 22%;
+    padding-top: 1px;
+}
+
 input::placeholder {
   color: #CAC6C6;
   font-size: 1.2em;
   font-style: italic;
-  font-weight:bold;
-  font-style:italic;  
+  font-weight:bold;  
   letter-spacing:1pt;
   word-spacing:2pt;
   font-size:28px;

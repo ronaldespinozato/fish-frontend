@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-login',
@@ -7,8 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  constructor(private elRef: ElementRef) {
+  }
 
+  login(event: ElementRef, username: String, password: String) {
+    
+    console.log(username, password);
+    // console.log(this.elRef.nativeElement.querySelector('username'));
+    // this.elRef.nativeElement.
+    
+  }
   ngOnInit() {
   }
 
